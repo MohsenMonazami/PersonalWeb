@@ -1,0 +1,79 @@
+#svg{
+    overflow: auto;
+    background-size: cover;
+    background-image: url("../images/Vector3.png");
+    background-repeat: no-repeat;
+    animation: opacity .5s ease;
+}
+
+@keyframes opacity {
+    0%{opacity: 0;}
+    100%{opacity: 100%;}
+}
+
+.personal_pic{
+    width: 22vw;
+    transform: translate(5rem , 6rem);
+    animation: pic 3s ease;
+}
+
+@keyframes pic {
+    0%{ opacity: 0;}
+    100%{ opacity: 100%;}
+}
+
+.big_title{
+    font-size: 4rem;
+    font-weight: 600;
+    display: inline;
+}
+
+.medium-title{
+    font-size: 3rem;
+    display: inline;
+}
+
+.little-title{
+    font-size: 2rem;
+}
+
+.paragraph{
+    font-size: 1.2rem;
+    width: 40vw;
+}
+
+.job-title{
+    line-height: 2rem;
+    padding-left: 1rem;
+    border-left: solid 6px #AE0000;
+}
+
+.mt-10{
+    margin-top: 23rem !important;
+}
+
+.ms-10{
+    margin-left: 6vw !important;
+}
+
+.p-10{
+    padding: 0 8rem 0 8rem !important;
+}
+
+.front-title{
+    animation: front 1s ease ;
+}
+
+@keyframes front {
+    0%{ opacity: 0; transform: translate(-30px , 0);}
+    100%{ opacity: 100; transform: translate(0 , 0);}
+}
+
+.ui-title{
+    animation: ui 1.5s ease;
+}
+
+@keyframes ui {
+    0%{ opacity: 0; transform: translate(-30px , 0);}
+    100%{ opacity: 100; transform: translate(0 , 0);}
+}

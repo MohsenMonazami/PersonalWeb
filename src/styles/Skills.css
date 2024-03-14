@@ -1,0 +1,57 @@
+.skill-img{
+    width: auto;
+    margin: auto;
+    transform: translateY(-8rem);
+}
+
+.skill-box{
+    width: 20rem !important;
+    height: 13rem;
+    padding: 5rem;
+    box-shadow: 0px 16px 32px -4px rgba(0,0,0,0.12);
+    margin: 5rem;
+    border-radius: 20px;
+}
+
+.skill-title{
+    font-size: 1.5rem;
+    transform: translateY(-7rem);
+}
+
+.rate-box{
+    margin: auto;
+    height: 1.2rem;
+    border-radius: 50px;
+    width: 80%;
+    transform: translateY(-7rem);
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.1);
+}
+
+.rate{
+    border-radius: 50px;
+    background-color: #000;
+    height: 100%;
+    
+}
+
+.html .css .sass .bootstrap .figma .git .adobexd .photoshop{
+    width: 100%;
+}
+
+.js{
+    width: 80%;
+}
+
+.react{
+    width: 90%;
+}
+
+.next{
+    width: 40%
+}
+
+.ill{
+    width: 40%;
+}

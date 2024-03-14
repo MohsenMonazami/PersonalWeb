@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+}
+
+*{
+    font-family: Helvetica , sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.section-title{
+    text-transform: uppercase;
+    color: white;
+    font-size: 6vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+ 
+.parallax-fix{
+    left: 0 !important;
+}
+
+.parallax-back{
+    filter: brightness(30%);
+}
+
+.mt-7{
+    margin-top: 7rem;
+}
